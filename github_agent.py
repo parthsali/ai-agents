@@ -14,4 +14,4 @@ agent = Agent(
     tools=[GithubTools()],
     show_tool_calls=True,
 )
-agent.print_response("create a issue on this repository : forrealdeveloper/Portfolio saying need more details", markdown=True)
+agent.print_response("Give me details of the repository pmndrs/react-three-fiber")
